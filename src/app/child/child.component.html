@@ -1,1 +1,5 @@
-<p>Say {{childMessage}}!</p>
+<!-- note that here, sendMessage() is a function that gets executed whenever there is a click event. This means the Button is listening to click event on the button. 
+
+Ideally, the synthetic event emitted by sendMessage method works in a similar versuion to the click event. Any sunscribed can receive the event.
+-->
+<button (click)="sendMessage()">Send Message</button>

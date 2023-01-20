@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: []
 })
 export class ParentComponent {
-
+  receiveMessage( message: string ) {
+    alert(message)
+  }
 }
